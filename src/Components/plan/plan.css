@@ -1,0 +1,102 @@
+#third-section{
+    position: absolute;
+    height: 100%;
+    margin-top: 12rem;
+    z-index: 2;
+  
+}
+#plan-section-1{
+    text-align: center;
+    display: block;
+}
+#plan-head-1{
+    width: 30%;
+    text-align: center;
+    margin-left: 36rem;
+    
+}
+#plan-section-1 h1{
+    font-size: 2.5rem;
+}
+#background-header{
+    position: absolute;
+    font-size: 12rem;
+    z-index: 1;
+    margin-left: 61rem;
+    opacity: 0.1;
+    margin-top: 18rem;
+}
+#plan-section-1 h5{
+    font-weight: 500;
+}
+.section1 {
+    display: flex;
+    width: 75%;
+    margin-left: 13rem;
+    height: 30rem;
+  }
+  .card {
+    flex: 1;
+    border: 1px solid rgb(230, 109, 230);
+    padding: 20px;
+    margin: 10px;
+    border-radius: .5rem;
+    padding-left: 2rem;
+  }
+  .card h6{
+    font-weight: 500;
+    font-size: small;
+  }
+  .price span:first-child{
+    font-size: 1.5rem;
+    color: blueviolet;
+  }
+  .price span:last-child{
+  margin-left: 1rem;
+  color: blueviolet;
+  
+  }
+  .price{
+    display: flex;
+    align-items: center;
+  }
+  .card li{
+    font-weight: 700;
+    margin-bottom: .6rem;
+    margin-top: 1rem;
+  }
+  .plan-button{
+    margin-top: 2rem;
+    border-radius: .5rem;
+    padding-left: .9rem;
+    padding-right: .9rem;
+    border: 1px solid blueviolet;
+    width: 35%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  .plan-button button{
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: blueviolet;;
+    line-height: inherit;
+    height: 100%;
+    font-weight: bolder;
+  }.toggle-button {
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .highlighted {
+    color: red;
+  }
+  

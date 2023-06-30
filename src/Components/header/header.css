@@ -1,0 +1,22 @@
+#head-container{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 1rem;
+font-size: 1.2rem;
+}
+.logo{
+   margin-left: 9rem;
+ width: 50%;
+ margin-right: 30rem;
+}
+.nav{
+    margin-left: 25rem;
+    align-self: right;
+   width: 50%; 
+}
+.nav span{
+    margin-right: 7rem;
+}

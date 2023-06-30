@@ -1,0 +1,75 @@
+.footer-1{
+    background-color:  rgb(64, 30, 94);;
+    height: 10rem;
+}
+.triangle1 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    transform: scaleY(-1);
+    border: none;
+    margin-top: 1rem;
+  }
+  
+  .triangle1::before,
+  .triangle1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .triangle1::after {
+    right: 0;
+    border-left: 100vw solid transparent;
+    border-top: 50vh solid rgb(64, 30, 94);
+  }
+  
+  #section-footer{
+    position: absolute;
+    z-index: 2;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  #section-footer h1{
+font-size: 2.6rem;
+  }
+  #section-footer h5{
+width: 90%;
+margin-left: 3rem;
+color: blueviolet
+  }
+#button-2{
+    margin-left: 20rem;
+    margin-top: 6rem;
+    padding: .5rem;
+    font-weight: 900;
+    
+}
+#last-foot{
+    color: white;
+    padding-top: 6rem;
+    font-size: .8rem;
+}
+#foot{
+    display: flex;
+    border-top: 1px solid grey;
+    width: 90%;
+    margin-left: 5.5rem;
+    padding: 1rem;
+}
+#second-div{
+    margin-left: 35rem;
+}
+#second-div span{
+margin-right: 1.5rem;
+}
+#icons span{
+    margin-right: 2rem;
+}
+#icons{
+    margin-left: 13rem;
+}

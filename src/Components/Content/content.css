@@ -1,0 +1,64 @@
+#main-container{
+    display: flex;
+    margin-top: -9rem;
+ 
+}
+#card-section{
+    display: flex;
+    width: 50%;
+    padding-left: 6rem;
+}
+#card-section div{
+    width: 80%;
+    border-radius: .5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    height: 65%;   
+}
+.head-5{
+    font-size: .7rem;
+    font-weight: 500;
+    width: 80%;
+}
+.card-part-1{
+    border: 1px solid rgb(204, 163, 204);
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    align-content: center;
+}
+.card-part-2{
+    margin-top: 2rem;
+    border: 1px solid rgb(204, 163, 204);
+    
+}
+#section-2{
+    margin-left: 6rem;
+}
+#section-2 h1{
+    font-size: 3.5rem;
+}
+#section-2 h5{
+    width: 55%;
+    font-weight: 600;
+}
+#button-2 {
+    background: linear-gradient(to right, rgb(122, 200, 222), rgb(218, 62, 218));
+    width: 25%;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  #button-2 button {
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
+    line-height: inherit;
+    height: 100%;
+    font-weight: bolder;
+  }

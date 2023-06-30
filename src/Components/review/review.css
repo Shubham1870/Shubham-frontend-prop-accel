@@ -1,0 +1,116 @@
+#main{
+    margin-top: 60rem;
+    margin-left: 12.5rem;
+}
+.section-container {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .section-one {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .section-two {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .section-title,
+  .section-subtitle {
+    margin: 10px 0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 4rem;
+    
+  }
+  
+  .card-11 {
+    flex: 0 0 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    border: 1px solid blueviolet;
+    border-radius: .3rem;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+  }
+  
+  .slide {
+    transform: translateX(-320px); 
+  }
+  .pagination {
+    text-align: center;
+    margin-right: 11rem;
+    margin-top: 4rem;
+
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    margin-right: 2rem;
+  }
+  .dot:first-child{
+    background-color: blueviolet;
+  }
+  .dot:hover {
+    background-color: blueviolet;
+  }
+  
+  .dot.active {
+    background-color: blueviolet;
+  }
+  #image-icon img{
+    width: 40%;
+    height: 40%;
+    border-radius: 5rem;
+    
+  }
+  #card-detail{
+    display: flex;
+
+  }
+  #image-icon {
+    width: 30%;
+    
+  }
+  #name{
+    margin-top: -1.5rem;
+  }
+  #company{
+    margin-top: -1rem;
+  }
+ #para{
+    text-align: left;
+    margin-left: 2.2rem;
+    font-size: small;
+ }
+ #star-rating{
+    margin-top: -1rem;
+ }
+ .next-button{
+    background-color: rgb(199, 179, 217);
+    border: none;
+    padding: 1rem;
+    border-radius: 4rem;
+    margin-right: 12rem;
+    margin-top: -9rem;
+    margin-left: 16rem;
+    position: absolute;
+    z-index: 3;
+ }
